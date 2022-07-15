@@ -6,7 +6,7 @@ TicTacToeBoard = Tuple[TicTacToeRow, TicTacToeRow, TicTacToeRow]
 def tic_tac_toe_finish(board: TicTacToeBoard, pos_y: int, pos_x: int, symbol: str) -> None:
     """
     This function takes in a TicTacToeBoard and applies the finishing move based on the provided parameters pos_y,
-    pos_x, and symbol.
+    pos_x, and symbol
 
     :param board: A tuple containing 3 TicTacToeRows. Each TicTacToeRow in turn is a list containing 3 strings
     :param pos_y: The position of the TicTacToeRow that needs to be modified
