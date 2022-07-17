@@ -14,6 +14,9 @@ def tic_tac_toe_finish(board: TicTacToeBoard, pos_y: int, pos_x: int, symbol: st
     :param symbol: The symbol that should be placed in the column (X, or O)
     :return: None
     """
+    for column in TicTacToeBoard:
+        print()
+
     pass  # remove pass statement and implement me
 
 
@@ -50,5 +53,8 @@ def print_items_with_index(items: Iterable):
     :param items: A tuple or a list
     :return: None
     """
+    tuplefortest = []
+    for item in items:
+        print(item)
     pass  # remove pass statement and implement me
 
